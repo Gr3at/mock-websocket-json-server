@@ -1,0 +1,16 @@
+{
+  "name": "mock-websocket-json-server",
+  "version": "1.0.0",
+  "description": "Base mock server with REST and WebSocket support.",
+  "main": "index.js",
+  "repository": "https://github.com/Gr3at/mock-websocket-json-server.git",
+  "author": "Gr3at <33185243+Gr3at@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve:json": "json-server --watch src/json-server-db.json"
+  },
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "ws": "^8.8.0"
+  }
+}
