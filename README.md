@@ -14,6 +14,6 @@ Run `curl http://localhost:3000/transactions` on a separate terminal to retrieve
 
 - [ ] Start the custom json-server with `yarn serve:custom-json`. (add commit hash)
     - [x] This script allows serving endpoint under a subpath, e.g. `/api/`,
-    - [ ] as well as extend json-server functionality with custom logic (e.g. datetime filtering).
+    - [x] as well as extend json-server functionality with custom logic (e.g. datetime filtering).
 Run `curl http://localhost:4000/api/transactions` on a separate terminal to retrieve all transaction records.
-
+Or `curl -X GET "http://127.0.0.1:4000/api/transactions/?datetime=2022-06-26T10:00:00Z"` to retrieve transaction after the provided datetime.
