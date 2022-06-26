@@ -1,0 +1,31 @@
+{
+    "transactions": [
+      {
+        "uuid": "95e45059-cbad-4e6e-8613-df499b4bd217",
+        "datetime": "2022-06-26T08:00:00Z",
+        "itemBidPrice": 21.6,
+        "requestedQuantity": 50,
+        "boughtQuantity": 50,
+        "itemAgreedPrice": 22.0,
+        "priceUnit": "€"
+      },
+      {
+        "uuid": "235ac1d7-fbaa-4b3c-ac2b-c7c8f5402471",
+        "datetime": "2022-06-26T09:00:00Z",
+        "itemBidPrice": 3.5,
+        "requestedQuantity": 200,
+        "boughtQuantity": 190,
+        "itemAgreedPrice": 3.5,
+        "priceUnit": "€"
+      },
+      {
+        "uuid": "3a5735e1-9f25-44c5-bb2c-0374883ed586",
+        "datetime": "2022-06-26T10:00:00Z",
+        "itemBidPrice": 5.2,
+        "requestedQuantity": 88,
+        "boughtQuantity": 80,
+        "itemAgreedPrice": 5.2,
+        "priceUnit": "€"
+      }
+    ]
+  }
