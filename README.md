@@ -9,5 +9,11 @@ This implementation utilizes:
 2. [json-server](https://github.com/typicode/json-server)
 3. [ws](https://github.com/websockets/ws)
 
-Start the simple json-server with `yarn serve`.
+- [x] Start the simple (default) json-server with `yarn serve:json`. (add commit hash)
 Run `curl http://localhost:3000/transactions` on a separate terminal to retrieve all transaction records.
+
+- [ ] Start the custom json-server with `yarn serve:custom-json`. (add commit hash)
+    - [x] This script allows serving endpoint under a subpath, e.g. `/api/`,
+    - [ ] as well as extend json-server functionality with custom logic (e.g. datetime filtering).
+Run `curl http://localhost:4000/api/transactions` on a separate terminal to retrieve all transaction records.
+

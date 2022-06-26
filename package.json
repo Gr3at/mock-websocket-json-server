@@ -7,7 +7,8 @@
   "author": "Gr3at <33185243+Gr3at@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-    "serve:json": "json-server --watch src/json-server-db.json"
+    "serve:json": "json-server --watch src/json-server-db.json",
+    "serve:custom-json": "node src/index.js"
   },
   "dependencies": {
     "json-server": "^0.17.0",
