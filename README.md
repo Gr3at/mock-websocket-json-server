@@ -5,7 +5,7 @@ This is a base mock-server setup. Taking advantage of the fact that json-server 
 it is combined with the _ws_ package to provide realtime capabilities while mocking. 
 
 This implementation utilizes:
-1. [Express](https://github.com/expressjs/expressjs.com)
+1. [Express](https://github.com/expressjs/express)
 2. [json-server](https://github.com/typicode/json-server)
 3. [ws](https://github.com/websockets/ws)
 
