@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "serve:json": "json-server --watch src/json-server-db.json",
-    "serve:custom-json": "node src/index.js"
+    "serve": "node src/index.js"
   },
   "dependencies": {
     "json-server": "^0.17.0",
