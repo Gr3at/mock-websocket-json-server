@@ -1,6 +1,7 @@
 const jsonServer = require('json-server');
 const app = jsonServer.create();
-const router = jsonServer.router('./src/json-server-db.json');
+const jsonDB = require('./json-server-db.json');
+const router = jsonServer.router(jsonDB);
 const middlewares = jsonServer.defaults();
 
 app.use(middlewares);
@@ -24,7 +25,10 @@ app.get('/api/transactions/', (req, res) => {
 });
 
 
-// Add any auto-generated routes from json-server-db.json
+/**
+ * Add any auto-generated routes from json-server-db.json
+ * This will automatically serve 'notifications' under the /api/notifications/ endpoint.
+ */
 app.use('/api', router);
 
 module.exports = app;

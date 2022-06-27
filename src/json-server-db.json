@@ -27,5 +27,19 @@
         "itemAgreedPrice": 5.2,
         "priceUnit": "€"
       }
+    ],
+    "notifications":[
+      {
+        "uuid": "8437d56c-2131-4742-a087-ebe8c1036307",
+        "datetime": "2022-06-27T10:00:00Z",
+        "readStatus": "READ",
+        "message": "Some text message or inner JSON."
+      },
+      {
+        "uuid": "a7410c73-bc77-44a7-833e-0cdef2dd0665",
+        "datetime": "2022-06-27T11:00:00Z",
+        "readStatus": "UNREAD",
+        "message": "Another text message or inner JSON."
+      }
     ]
   }
